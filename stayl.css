@@ -1,0 +1,302 @@
+.contayner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #014E56;
+}
+
+body {
+    margin: 0;
+}
+
+header ul a {
+    color: #FFFFFF;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.us {
+    border: 2px solid #FFFFFF;
+    padding: 10px 25px;
+    padding-top: 9px;
+    border-radius: 30px;
+}
+
+header .contayner {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .about {
+    background-color: #014E56;
+    color: white;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about p {
+    line-height: 25px;
+    width: 50%;
+}
+
+.about .contayner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: #004047;
+}
+
+.intro h2 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    color: #79C8C7;
+    margin-bottom: -10px;
+}
+
+.oval {
+    background-color: #012F34;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.oval-chik{
+    background-color: #012F34;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.oval-pop{
+    background-color: #012F34;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.oval img {
+    width: 100px;
+}
+
+.oval .plus {
+    width: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.intro p {
+    font-style: italic;
+    color: white;
+}
+
+.intro .ovals {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.ovals {
+    margin-bottom: 120px;
+}
+
+.contact {
+    background-color: #012F34;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.tugadi {
+    background-color: #F67E7E;
+}
+
+.ready {
+    color: #012F34;
+}
+
+.con {
+    border: 2px solid #012F34;
+    padding: 10px 25px;
+    padding-top: 9px;
+    border-radius: 30px;
+    color: #004047;
+}
+
+.tugadi .contayner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.src {
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: #002529;
+    padding: 20px 0;
+    padding-top: 30px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .contayner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #012F34;
+}
+
+.us:hover {
+    border: 2px solid #012F34;
+    color: #012F34;
+}
+
+@media (max-width: 768px) {
+    .group {
+        width: 80%;
+        padding-left: 80px;
+    }
+
+    .about .contayner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .contayner p {
+        padding-left: 110px;
+        line-height: 30px;
+        width: 69%;
+    }
+
+    .ovals{
+        flex-wrap: wrap;
+    }
+
+    .oval {
+        gap: -100px;
+    }
+
+    .oval-pop{
+        margin-left: -100px;
+        margin-bottom: 70px;
+    }
+
+    .ready{
+        font-size: 35px;
+        padding-left: 90px;
+    }
+
+    .con{
+        margin-right: 90px;
+        align-items: center;
+    }
+
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    footer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    header .contayner{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about .contayner p{
+        width: 100%;
+        padding-left: 7px;
+    }
+
+    .ovlas{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .oval-pop{
+        align-items: center;
+        display: flex;
+        margin-left: 1px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .group{
+        flex-wrap: wrap;
+        padding-left: 40px;
+    }
+
+    .tugadi .contayner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 60px;
+        justify-content: center;
+    }
+
+    .con{
+        margin-left: 154px;
+        align-items: center;
+        justify-content: center;
+    }
+}
